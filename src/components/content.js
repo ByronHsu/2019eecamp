@@ -8,7 +8,7 @@ import MustKnow from '../components/mustknow'
 import Apply from '../components/apply'
 import Gallery from '../components/gallery'
 
-const up = 120
+const offset = 120
 
 const Content = props => {
     return (
@@ -16,12 +16,12 @@ const Content = props => {
             <Wave url = {tile1} bgcolor = '#b9e5fb' headerColor = '#496379' title = '報名須知'>
                 <MustKnow />
             </Wave>
-            <Wave url = {tile2} bgcolor = '#75c3e2' headerColor = '#ffffff' title = '開始報名' bottom = {up}>
+            <Wave url = {tile2} bgcolor = '#75c3e2' headerColor = '#ffffff' title = '開始報名' bottom = {offset}>
                 <Apply />
             </Wave>
-            <Wave url = {tile3} bgcolor = '#49647a' headerColor = '#ffffff' title = '活動花絮' bottom = {up * 2}>
+            <Wave url = {tile3} bgcolor = '#49647a' headerColor = '#ffffff' title = '活動花絮' bottom = {offset * 2}>
             </Wave>
-            <Wave url = {tile4} bgcolor = '#2c4256' headerColor = '#d3ffff' bottom = {up * 3} />
+            <Wave url = {tile4} bgcolor = '#2c4256' headerColor = '#d3ffff' bottom = {offset * 3} />
         </div>
     )
 }

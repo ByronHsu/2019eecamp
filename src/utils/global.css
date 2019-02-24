@@ -1,11 +1,30 @@
-h3 {
-    margin: 0;
+html{
+    font-size: 24px;
 }
 body{
     font-family: 'Microsoft JhengHei';
-    font-size: 16px;
     line-height: 1.8;
 }
 div{
     box-sizing: border-box;
+}
+h3 {
+    margin: 0;
+    font-size: 1rem;
+}
+li {
+    font-size: 1rem;
+}
+
+
+@media (max-width: 769px) {
+    html{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    html{
+        font-size: 16px;
+    }
 }

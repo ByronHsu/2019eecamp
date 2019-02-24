@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Apply = () => (
-    <div>
+    <div style = {{position: 'relative', top : '-100px'}}>
         <h3> 報名流程 </h3>
         <ul>
             <li>下載並列印「報名資料表.pdf」。

@@ -1,25 +1,49 @@
 .wave-header{
     background-image: url('../images/tile1.png');
-    background-size: 10% 100%;
+    background-size: 12.5% 100%;
     width: 100%;
     height: 300px;
-    line-height: 300px;
+    padding-top: 80px;
     text-align: center;
     font-size: 40px;
+    cursor: pointer;
+    transition: all 1s;
 }
+
+.wave-header:hover{
+    transform: translateY(-10px) scaleY(1.1);
+}
+
 .wave-content{
     width: 100%;
-    padding-bottom: 100px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-bottom: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
     /* height: 600px; */
 }
 
-@media (max-width: 767px) {
+@media (max-width: 769px) {
     .wave-header{
-        background-size: 30% 100%;
-        height: 200px;
-        line-height: 200px;
+        background-size: 20% 100%;
         font-size: 30px;
+    }
+    .wave-content{
+        padding-bottom: 3rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .wave-header{
+        background-size: 33.333% 100%;
+        height: 225px;
+        padding-top: 40px;
+        font-size: 30px;
+    }
+    .wave-content{
+        padding-bottom: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 }

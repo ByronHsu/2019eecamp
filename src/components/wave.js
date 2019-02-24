@@ -17,8 +17,8 @@ class Wave extends React.Component {
     }
     render() {
         return (
-            <div style = {{position: 'relative', bottom: this.props.bottom}}>
-                <div className = 'wave-header' style = {{backgroundImage: `url(${this.props.url})`, color: this.props.headerColor}} onClick = {this.handleToggle} >
+            <div className = 'wave-container' style = {{position: 'relative', bottom: this.props.bottom}}>
+                <div className = 'wave-header' style = {{backgroundImage: `url(${this.props.url})`, color: this.props.headerColor}} onClick = {this.handleToggle}>
                     {this.props.title}
                 </div>
                 {
