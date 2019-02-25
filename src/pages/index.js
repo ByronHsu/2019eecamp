@@ -8,7 +8,9 @@ import './index.css'
 
 export default ({ data }) => (
   <div className = 'root-container'>
-    <NonStretchedImage {...data.file.childImageSharp} />
+    <div className = 'image-wrapper'>
+        <NonStretchedImage {...data.file.childImageSharp} />
+    </div>
     <Content />
   </div>
 )

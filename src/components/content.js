@@ -8,20 +8,20 @@ import MustKnow from '../components/mustknow'
 import Apply from '../components/apply'
 import Gallery from '../components/gallery'
 
-const offset = 120
+const offset = -50
 
 const Content = props => {
     return (
         <div>
-            <Wave url = {tile1} bgcolor = '#b9e5fb' headerColor = '#496379' title = '報名須知'>
+            <Wave url = {tile1} bgcolor = '#b9e5fb' headerColor = '#496379' title = '報名須知' bottom = {offset * 3}>
                 <MustKnow />
             </Wave>
-            <Wave url = {tile2} bgcolor = '#75c3e2' headerColor = '#ffffff' title = '開始報名' bottom = {offset}>
+            <Wave url = {tile2} bgcolor = '#75c3e2' headerColor = '#ffffff' title = '開始報名' bottom = {offset * 2}>
                 <Apply />
             </Wave>
-            <Wave url = {tile3} bgcolor = '#49647a' headerColor = '#ffffff' title = '活動花絮' bottom = {offset * 2}>
+            <Wave url = {tile3} bgcolor = '#49647a' headerColor = '#ffffff' title = '活動花絮' bottom = {offset * 1}>
             </Wave>
-            <Wave url = {tile4} bgcolor = '#2c4256' headerColor = '#d3ffff' bottom = {offset * 3} />
+            <Wave url = {tile4} bgcolor = '#2c4256' headerColor = '#d3ffff' bottom = {offset * 0} />
         </div>
     )
 }

@@ -1,3 +1,7 @@
 .root-container{
     position: relative;
 }
+.image-wrapper{
+    position: relative;
+    top: 75px;
+}
