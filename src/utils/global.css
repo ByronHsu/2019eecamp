@@ -1,9 +1,10 @@
 html{
-    font-size: 24px;
+    font-size: 20px;
 }
 body{
     font-family: 'Microsoft JhengHei';
     line-height: 1.8;
+    word-wrap: break-word;
 }
 div{
     box-sizing: border-box;

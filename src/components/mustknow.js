@@ -3,7 +3,7 @@ import { relative } from 'path';
 
 
 const MustKnow = () => (
-    <div style = {{position: 'relative', top : '0px'}}>
+    <div style = {{position: 'relative', top : '-50px'}}>
         <h3> 營隊資訊 </h3>
         <ul>
             <li>營隊時間：2019/7/26（五）～ 2019/7/31（三）共六天五夜</li>

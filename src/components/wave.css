@@ -27,6 +27,9 @@
         background-size: 20% 100%;
         font-size: 30px;
     }
+    .wave-header:hover{
+        transform: none;
+    }
     .wave-content{
         padding-bottom: 3rem;
         padding-left: 3rem;
@@ -40,6 +43,9 @@
         height: 175px;
         padding-top: 60px;
         font-size: 30px;
+    }
+    .wave-header:hover{
+        transform: none;
     }
     .wave-content{
         padding-bottom: 1rem;
