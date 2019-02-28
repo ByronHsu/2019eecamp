@@ -2,14 +2,18 @@ import React from "react"
 import { graphql } from "gatsby"
 import NonStretchedImage from '../components/nonstretchedimage'
 import Content from '../components/content'
+import Meta from '../components/meta'
 import './index.css'
 
 export default ({ data }) => (
-  <div className = 'root-container'>
-    <div className = 'image-wrapper'>
-        <NonStretchedImage {...data.logo.childImageSharp} />
+  <div>
+    <Meta/>
+    <div className = 'root-container'>
+        <div className = 'image-wrapper'>
+            <NonStretchedImage {...data.logo.childImageSharp} />
+        </div>
+        <Content />
     </div>
-    <Content />
   </div>
 )
 
