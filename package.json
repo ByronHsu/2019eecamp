@@ -19,7 +19,8 @@
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
     "react-helmet": "^5.2.0",
-    "react-photo-gallery": "^6.3.1",
+    "react-images": "^0.5.19",
+    "react-photo-gallery": "^6.3.2",
     "react-typography": "^0.16.18",
     "typography": "^0.16.18",
     "typography-theme-grand-view": "^0.16.18"

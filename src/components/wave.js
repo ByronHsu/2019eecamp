@@ -16,13 +16,20 @@ class Wave extends React.Component {
         })
     }
     render() {
+        let footerStyle = {}
+        if(this.props.disable){
+            footerStyle = {
+                fontSize: '20px',
+                paddingTop: '100px'
+            }
+        }
         return (
             <div className = 'wave-container' style = {{position: 'relative', bottom: this.props.bottom}}>
-                <div className = 'wave-header' style = {{backgroundImage: `url(${this.props.url})`, color: this.props.headerColor}} onClick = {this.handleToggle}>
+                <div className = 'wave-header' style = {{backgroundImage: `url(${this.props.url})`, color: this.props.headerColor, ...footerStyle}} onClick = {this.handleToggle}>
                     {this.props.title}
                 </div>
                 {
-                    this.state.toggle && 
+                    this.state.toggle && !this.props.disable && 
                     <div className = 'wave-content' style = {{backgroundColor: this.props.bgcolor}}>
                         {this.props.children}
                     </div>
