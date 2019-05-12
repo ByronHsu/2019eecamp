@@ -36,6 +36,11 @@ const MustKnow = () => (
             將以填寫學員資料表之熱誠做為錄取標準，並會適度分配各地學員人數比例。請盡量在報名表中展現你對電機的興趣與熱情、自身與眾不同之處以及非錄取你不可的理由！因此，所有報名事項強烈建議由學員自行填寫，感謝您的配合。
             </li>
         </ol>
+        <h3> 錄取結果 </h3>
+        <ol>
+            <li>錄取名單: <a href="https://reurl.cc/ODR63">https://reurl.cc/ODR63</a> </li>
+            <li>有關繳費之注意事項請詳閱此文件: <a href="https://reurl.cc/RDY3Z"> https://reurl.cc/RDY3Z</a></li>
+        </ol>
     </div>
 )
 
